@@ -13,14 +13,13 @@ func new_game():
 	$player.start_pos($StartPosition.position)
 	score = 0
 	$HUD.update_score(score)
-	$HUD.show_message("Get Ready!")
+	$HUD.show_message("Get Ready")
 	get_tree().call_group("bugs", "queue_free")
 	$BgMusic.play()
 	$StartTimer.start()
 
 func _on_start_timer_timeout():
 	$BugTimer.start()
-	print('here')
 
 func _on_bug_timer_timeout():
 	var bug = bug_scene.instantiate()

@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://bdfl02ttuamum"]
+[gd_scene load_steps=9 format=3 uid="uid://bdfl02ttuamum"]
 
 [ext_resource type="Script" path="res://scripts/hud.gd" id="1_rbm0b"]
 [ext_resource type="StyleBox" uid="uid://cmglar6q1aa6l" path="res://btn_styles.tres" id="2_4g2k6"]
 [ext_resource type="FontFile" uid="uid://36tvaqe8dtvc" path="res://font/Super Smash TV.ttf" id="2_t80sb"]
+[ext_resource type="PackedScene" uid="uid://bq2sqb1u1l5ve" path="res://addons/virtual_joystick/test/test.tscn" id="4_23466"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mo8mb"]
 bg_color = Color(0.344595, 0.0967079, 0.654421, 1)
@@ -87,9 +88,9 @@ anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
 offset_left = -112.0
-offset_top = -128.0
+offset_top = -576.0
 offset_right = 113.0
-offset_bottom = -64.0
+offset_bottom = -512.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -104,6 +105,8 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_awquf")
 theme_override_styles/focus = ExtResource("2_4g2k6")
 shortcut = SubResource("Shortcut_udsat")
 text = "start"
+
+[node name="Test" parent="Control" instance=ExtResource("4_23466")]
 
 [node name="MessageTimer" type="Timer" parent="."]
 wait_time = 2.0

@@ -2,7 +2,7 @@ extends Area2D
 
 signal collected
 signal hit
-const SPEED := 400 
+var SPEED := 400 
 var screen_size
 @onready var collision = $collision
 @onready var anim = $anim

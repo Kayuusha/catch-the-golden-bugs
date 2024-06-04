@@ -15,4 +15,6 @@ https://mixkit.co/free-sound-effects/game/?page=2
 Godot Engine: https://godotengine.org
 
 font
-super_smash_tv
+super_smash_tv https://www.dafont.com/super-smash-tv.font
+
+

@@ -11,7 +11,6 @@ virtual joystick godot: https://github.com/MarcoFazioRandom/Virtual-Joystick-God
 sound effect
 mixkit-player-jumping-in-a-video-game-2043
 https://mixkit.co/free-sound-effects/game/?page=2
-Godot Engine: https://godotengine.org
 
 font
 super_smash_tv https://www.dafont.com/super-smash-tv.font

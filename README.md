@@ -1,4 +1,4 @@
-# Cath The Golden Bugs
+# Catch The Golden Bugs
 
 A simple game exercise to solidify fundamentals of the godot engine
 
